@@ -40,7 +40,7 @@ section {}
 }
 
 
-/* Discount section ------------------------------------------------------------------*/
+/* Discount section*/
 
 .dis-container {
     text-align: center;
@@ -71,7 +71,7 @@ section {}
 
 
 
-/* 3rd banner section ------------------------------------------------------------------*/
+/* 3rd banner section */
 .wel-container {
     border-radius: 16px;
     margin-top: 50px;
@@ -87,7 +87,7 @@ section {}
     color: white;
     line-height: 50px;
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     padding: 160px 145px;  
 }
 
@@ -110,11 +110,11 @@ section {}
 }
 
 .wel-year{
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     padding:80px 150px;
 }
 
-/* Date section -----------------------------------------------------------------------*/
+/* Date section */
 
 .date-section{
     margin-top: 130px;
@@ -146,7 +146,7 @@ span{
 
 
 
-/* offer section ------------------------------------------------------------------------*/
+/* offer section*/
 
 .offer{
     display: flex;
@@ -186,7 +186,7 @@ p{
     margin-top: 30px;
 }
 
-/* sale section -----------------------------------------------------------------*/
+/* sale section */
 .sale-section{
     text-align: center;
     padding: 250px;
