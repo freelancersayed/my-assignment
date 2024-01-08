@@ -45,7 +45,7 @@ section {}
 .dis-container {
     text-align: center;
     line-height: 50px;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
 .dis-text>h1 {
@@ -79,7 +79,7 @@ section {}
     width: 100%;
     height: 623px;
     background-size: cover;
-    border-radius:16px;
+    border-radius: 16px;
     display: flex
 }
 
@@ -88,37 +88,37 @@ section {}
     line-height: 50px;
     border-radius: 16px;
     /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
-    padding: 160px 145px;  
+    padding: 160px 145px;
 }
 
-.wel-banner-text >h1{
+.wel-banner-text>h1 {
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
     line-height: 100px;
 }
 
-.wel-banner-text >p{
+.wel-banner-text>p {
     font-size: 18px;
     line-height: 20px;
 }
 
-.wel-banner-text a{
+.wel-banner-text a {
     text-decoration: none;
     color: white;
     line-height: 100px;
 }
 
-.wel-year{
+.wel-year {
     /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
-    padding:80px 150px;
+    padding: 80px 150px;
 }
 
 /* Date section */
 
-.date-section{
+.date-section {
     margin-top: 130px;
-    background-color:#fff7f4;
+    background-color: #fff7f4;
     text-align: center;
     padding: 200px;
     font-size: 30px;
@@ -128,18 +128,19 @@ section {}
 }
 
 /* .date-section  */
-span{
-    color:red;
+span {
+    color: red;
 }
 
 .date-section button {
 
-    padding:10px 20px;
+    padding: 10px 20px;
     background-color: #F00;
     border: none;
     border-radius: 5px;
 }
-.date-section button a{
+
+.date-section button a {
     text-decoration: none;
     color: white;
 }
@@ -148,7 +149,7 @@ span{
 
 /* offer section*/
 
-.offer{
+.offer {
     display: flex;
     gap: 50px;
     align-items: center;
@@ -156,10 +157,11 @@ span{
 
 }
 
-.offer div{
+.offer div {
     max-width: 500px;
 }
-.img-circel{
+
+.img-circel {
     border: 10px solid red;
     border-radius: 250px;
     padding: 20px;
@@ -167,75 +169,133 @@ span{
 
 
 
-.new-best-offer h3, .year{
+.new-best-offer h3,
+.year {
     color: red;
 }
-.new-best-offer h1{
+
+.new-best-offer h1 {
     line-height: 60px;
 }
-p{
+
+p {
     color: #bdbdbd;
 
 }
-.img-circel :hover{
-  
+
+.img-circel :hover {
+
     background-color: #585757;
 }
 
-.offer-2024 img{
+.offer-2024 img {
     margin-top: 30px;
 }
 
 /* sale section */
-.sale-section{
+.sale-section {
     text-align: center;
     padding: 250px;
 }
-.sale-section h1{
+
+.sale-section h1 {
     font-size: 50px;
 }
 
-.sale-image .group-75{
+.sale-image .group-75 {
     margin-left: 50px;
     margin-bottom: -150px;
     border-radius: 8px;
     position: relative;
 }
-.sale-image .group-44{
+
+.sale-image .group-44 {
     margin-right: -150px;
-    margin-left: 157px ;
-   position: relative;
-   border-radius: 8px;
+    margin-left: 157px;
+    position: relative;
+    border-radius: 8px;
 }
 
-.sale-image .rectangle2{
+.sale-image .rectangle2 {
     width: 100%;
-    background-size:cover ;
+    background-size: cover;
     margin-top: -3px;
     border-radius: 8px;
 }
 
 
-.gitft-title{
+.gitft-title {
     line-height: 50px;
     margin-top: 100px;
     font-size: 24px;
 }
-.gitft-title h3{
+
+.gitft-title h3 {
     color: red;
 }
-.gitft-title h1{
+
+.gitft-title h1 {
     font-size: 48px;
 }
-.gifts{
+
+.gifts {
     display: flex;
 }
-.gifts img{
+
+.gifts img {
     width: 525px;
     padding: 5px;
 }
 
+.Sub-container {
+    background-color: rgb(243, 240, 240);
+    padding: 200px;
+    border-radius: 16px;
+    margin-top: 50px;
 
-footer{
+    text-align: center;
+}
+.box{
+    margin-top: 20px;
+}
+
+
+
+
+.sub-input {
+    border: none;
+    padding: 20px 100px;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+
+.sub-button {
+    background-color: red;
+    line-height: 0px;
+    border-radius: 18px;
+    border: none;
+    /* padding: 4px; */
+}
+
+.sub-text h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.sub-span {
+    /* padding: 5px; */
+    color: white;
+    margin: 14px;
+    color: #FFF;
+
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+}
+.box{
+  
+}
+
+
+footer {
     margin-bottom: 100px;
 }
