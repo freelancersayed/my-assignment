@@ -228,7 +228,9 @@ p {
     background-image: url('../resources/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: center right;
+    text-align: center;
 }
+
 
 .sale-section h1 {
     font-size: 50px;
