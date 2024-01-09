@@ -121,7 +121,7 @@ section {}
 
 .date-section {
     margin-top: 130px;
-    background-color: #fff7f4;
+    background-color: #fff7f49c;
     text-align: center;
     padding: 200px;
     font-size: 30px;
@@ -196,9 +196,7 @@ p {
 }
 
 /* sale section */
-.sale-container{
-    display: block;
-}
+
 .sale-section {
     text-align: center;
     padding: 250px;
@@ -259,7 +257,7 @@ p {
 }
 
 .Sub-container {
-    background-color: rgb(243, 240, 240);
+    background-color: rgb(243 240 240 / 43%);
     padding: 200px;
     border-radius: 16px;
     margin-top: 50px;
@@ -304,14 +302,12 @@ text-align: center;
 font-size: 20px;
 font-weight: 600;
 }
-.box{
-  
-}
 
 footer{
     background-color: #070211;
     padding: 80px;
     color: white;
+    margin-top: 150px;
 }
 .foot-cont{
     display: flex;
@@ -338,8 +334,4 @@ footer{
 a{
     text-decoration: none;
     color: white;
-}
-
-footer {
-    margin-bottom: 100px;
 }
