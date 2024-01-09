@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Noto Sans', sans-serif;
 }
 
 main {
     max-width: 1600px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 section {}
@@ -43,7 +45,7 @@ section {}
 }
 
 
-/* Discount section*/
+/* Discount section--------------------------------------------------- */
 
 .dis-container {
     text-align: center;
@@ -74,7 +76,7 @@ section {}
 
 
 
-/* 3rd banner section */
+/* 3rd banner section--------------------------------------------------- */
 .wel-container {
     border-radius: 16px;
     margin-top: 50px;
@@ -91,7 +93,7 @@ section {}
     line-height: 50px;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    padding: 160px 145px;
+    padding: 119px 115px;
 }
 
 .wel-banner-text>h1 {
@@ -115,9 +117,10 @@ section {}
 .wel-year {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     padding: 80px 150px;
+    border-radius: 16px;
 }
 
-/* Date section */
+/* Date section--------------------------------------------------- */
 
 .date-section {
     margin-top: 130px;
@@ -130,7 +133,7 @@ section {}
     border-radius: 8px;
 }
 
-/* .date-section  */
+/* .date-section---------------------------------------------------  */
 span {
     color: red;
 }
@@ -150,7 +153,7 @@ span {
 
 
 
-/* offer section*/
+/* offer section--------------------------------------------------- */
 
 .offer {
     display: flex;
@@ -195,28 +198,32 @@ p {
     margin-top: 30px;
 }
 
-/* sale section */
+/* sale section ---------------------------------------------------*/
 
 .sale-section {
     text-align: center;
     padding: 250px;
 }
 
+.sale-image {
+    background-image: url('/resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
 .sale-section h1 {
     font-size: 50px;
+
 }
 
 .sale-image .group-75 {
-    margin-left: 50px;
     margin-bottom: -150px;
     border-radius: 8px;
     position: relative;
 }
 
 .sale-image .group-44 {
-    margin-right: -150px;
-    margin-left: 157px;
-    position: relative;
+    margin-left: -100px;
     border-radius: 8px;
 }
 
@@ -226,6 +233,7 @@ p {
     margin-top: -3px;
     border-radius: 8px;
 }
+
 
 
 .gitft-title {
@@ -247,7 +255,8 @@ p {
 .gifts {
     display: flex;
 }
-.gift-image{
+
+.gift-image {
     margin-top: 50px;
 }
 
@@ -263,7 +272,8 @@ p {
     margin-top: 50px;
     text-align: center;
 }
-.box{
+
+.box {
     margin-top: 20px;
 }
 
@@ -288,50 +298,55 @@ p {
     padding-left: -50px;
 }
 
-.sub-text h1{
+.sub-text h1 {
     font-size: 40px;
     margin-bottom: 10px;
 }
+
 .sub-span {
-    /* padding: 5px; */
     color: white;
     margin: 14px;
     color: #FFF;
-
-text-align: center;
-font-size: 20px;
-font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
 }
 
-footer{
+/* footer section--------------------------------------------------- */
+
+footer {
     background-color: #070211;
     padding: 80px;
     color: white;
     margin-top: 150px;
 }
-.foot-cont{
+
+.foot-cont {
     display: flex;
     justify-content: space-between;
     margin: 30px;
 }
-.foot-icon{
+
+.foot-icon {
     padding: 20px;
     text-align: center;
 }
-.foot-icon img{
+
+.foot-icon img {
     padding: 10px;
 }
-.foot-copy{
+
+.foot-copy {
     display: flex;
     justify-content: space-between;
-    /* margin: 30px; */
     margin-top: 30px;
 }
-.hr{
-    /* color: #585757; */
+
+.hr {
     background-color: #4b4b4b;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
